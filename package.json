@@ -1,0 +1,29 @@
+{
+  "name": "api-perlawanan",
+  "version": "1.0.0",
+  "description": "API Perlawanan",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "quotes",
+    "kutipan",
+    "sastra"
+  ],
+  "author": "Ibrahim (@ibamibrhm)",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "fastify": "^3.0.2",
+    "fastify-cors": "^4.0.0",
+    "fastify-mongodb": "^2.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.x"
+  }
+}
