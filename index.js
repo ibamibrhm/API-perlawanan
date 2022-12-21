@@ -20,3 +20,5 @@ app.get('/', function (_, reply) {
 });
 
 app.listen(port, '0.0.0.0', () => console.log('app running on port:', port));
+
+module.exports = app;
